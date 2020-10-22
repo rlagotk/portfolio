@@ -1,0 +1,21 @@
+/*  Animations   */
+
+.fromTopIn { 	transition: all 1s;	transform: translate(0,0);	opacity: 1;}
+.fromTopOut {	transition: all 1s;	transform: translate(0,-100px);	opacity: 0; }
+
+.fromBottomIn {	transition: all 1s;	transform: translate(0,0);	opacity: 1;}
+.fromBottomOut {	transition: all 1s;	transform: translate(0,100px);	opacity: 0; }
+
+.fromLeftIn {	transition: all 1s;	transform: translate(100px, 0);	opacity: 1; }
+.fromLeftOut {	transition: all 1s;	transform: translate(0,0);	opacity: 0; }
+
+.fromRightIn {	transition: all 1s;	transform: translate(0,0);	opacity: 1; }
+.fromRightOut {	transition: all 1s;	transform: translate(100px, 0);	opacity: 0; }
+
+.scaleUpIn {	transition: all 1s;	transform: scale(1.5);	opacity: 0; }
+.scaleUpOut {	transition: all 1s;	transform: scale(1);	opacity: 1; }
+
+.scaleDownIn {	transition: all 1s;	transform: scale(1);	opacity: 1; }
+.scaleDownOut {	transition: all 1s;	transform: scale(0.5);	opacity: 0; }
+
+
